@@ -1,21 +1,14 @@
 .cabecalho {
     color: var(--branco);
-
     width: 100%;
-
     box-sizing: border-box;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
     padding-top: .75rem;
     padding-bottom: .75rem;
-
     border-bottom: 1px solid var(--borda-cabecalho-mobile);
-
     position: absolute;
-
     padding-inline: inherit;
 }
 
@@ -31,9 +24,7 @@
 
 .cabecalho__link {
     font-size: 1.1rem;
-
     display: inline-block;
-
     margin-right: .7rem;
     margin-bottom: 1.25rem;
     margin-left: .7rem;
@@ -43,7 +34,7 @@
     .cabecalho {
         flex-direction: row;
         justify-content: space-between;
-
         border: none;
+        background-image: url(../img/bg-intro.jpg);
     }
 }
